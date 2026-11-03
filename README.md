@@ -1,31 +1,24 @@
-# Landing page — design reference
+# Landing page — Embalagens personalizadas
 
-This is a design mockup created in a visual design tool, exported as a
-standalone page. Treat it as a REFERENCE MOCKUP, not production code:
-the markup and inline styles carry the design's precise values — colors,
-font sizes, spacing, radii, shadows, layout — which an implementation
-should replicate faithfully in its own components and styling system
-rather than copy wholesale.
+Site estático em HTML e CSS puro (sem React, sem build, sem dependências).
 
-## Contents
+## Conteúdo
 
-- `index.html` — entry point for GitHub Pages (a copy of `Main.dc.html`).
-- `Main.dc.html` — the artboard (a Design Component: an `<x-dc>`
-  template + a small logic class). The values to replicate live in its
-  inline `style="…"` attributes and the `<helmet><style>` block.
-- `support.js`, `vendor/react*.js` — the runtime that renders the
-  component in a browser; not part of the design.
-- `.nojekyll` — tells GitHub Pages to serve the files as-is.
+- `index.html` — página completa, com o CSS embutido no `<style>`.
+- `.nojekyll` — faz o GitHub Pages servir os arquivos como estão.
 
-## Viewing
+## Visualização local
 
-Serve the folder (e.g. `python3 -m http.server`) and open `index.html`;
-some browsers block the scripts over file://.
+Basta abrir o `index.html` no navegador. Também é possível servir a pasta:
+
+```bash
+python3 -m http.server
+```
 
 ## GitHub Pages
 
-1. Go to **Settings → Pages** in the repository.
-2. Under **Build and deployment → Source**, choose **Deploy from a branch**.
-3. Select branch **main** and folder **/ (root)**, then save.
-4. The site will be published at
-   `https://cristiancerqueiraads-svg.github.io/jandersonteste2/`.
+1. Acesse **Settings → Pages** no repositório.
+2. Em **Build and deployment → Source**, escolha **Deploy from a branch**.
+3. Selecione a branch **main** e a pasta **/ (root)** e salve.
+4. O site fica disponível em:
+   `https://cristiancerqueiraads-svg.github.io/jandersonteste2/`
