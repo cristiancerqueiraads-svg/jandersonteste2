@@ -1,6 +1,7 @@
 # Landing page — Embalagens personalizadas
 
-Site estático em HTML e CSS puro (sem React, sem build, sem dependências).
+Site estático em HTML e CSS puro (sem React, sem build, sem dependências),
+com layout responsivo mobile-first.
 
 ## Conteúdo
 
